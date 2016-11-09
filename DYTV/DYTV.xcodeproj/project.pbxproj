@@ -7,68 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2697EA861DD2FD8800490B2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2697EA851DD2FD8800490B2D /* main.m */; };
-		2697EA891DD2FD8800490B2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2697EA881DD2FD8800490B2D /* AppDelegate.m */; };
-		2697EA8C1DD2FD8800490B2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2697EA8B1DD2FD8800490B2D /* ViewController.m */; };
-		2697EA8F1DD2FD8800490B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2697EA8D1DD2FD8800490B2D /* Main.storyboard */; };
-		2697EA911DD2FD8800490B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2697EA901DD2FD8800490B2D /* Assets.xcassets */; };
-		2697EA941DD2FD8800490B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2697EA921DD2FD8800490B2D /* LaunchScreen.storyboard */; };
-		2697EA9F1DD2FD8800490B2D /* DYTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2697EA9E1DD2FD8800490B2D /* DYTVTests.m */; };
-		2697EAAA1DD2FD8800490B2D /* DYTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2697EAA91DD2FD8800490B2D /* DYTVUITests.m */; };
+		2697EAC41DD30A5500490B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697EAC31DD30A5500490B2D /* AppDelegate.swift */; };
+		2697EAC61DD30A5500490B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697EAC51DD30A5500490B2D /* ViewController.swift */; };
+		2697EAC91DD30A5500490B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2697EAC71DD30A5500490B2D /* Main.storyboard */; };
+		2697EACB1DD30A5500490B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2697EACA1DD30A5500490B2D /* Assets.xcassets */; };
+		2697EACE1DD30A5500490B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2697EACC1DD30A5500490B2D /* LaunchScreen.storyboard */; };
+		2697EAD91DD30A5500490B2D /* DYTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697EAD81DD30A5500490B2D /* DYTVTests.swift */; };
+		2697EAE41DD30A5500490B2D /* DYTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697EAE31DD30A5500490B2D /* DYTVUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2697EA9B1DD2FD8800490B2D /* PBXContainerItemProxy */ = {
+		2697EAD51DD30A5500490B2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2697EA791DD2FD8800490B2D /* Project object */;
+			containerPortal = 2697EAB81DD30A5500490B2D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2697EA801DD2FD8800490B2D;
+			remoteGlobalIDString = 2697EABF1DD30A5500490B2D;
 			remoteInfo = DYTV;
 		};
-		2697EAA61DD2FD8800490B2D /* PBXContainerItemProxy */ = {
+		2697EAE01DD30A5500490B2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2697EA791DD2FD8800490B2D /* Project object */;
+			containerPortal = 2697EAB81DD30A5500490B2D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2697EA801DD2FD8800490B2D;
+			remoteGlobalIDString = 2697EABF1DD30A5500490B2D;
 			remoteInfo = DYTV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2697EA811DD2FD8800490B2D /* DYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2697EA851DD2FD8800490B2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2697EA871DD2FD8800490B2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2697EA881DD2FD8800490B2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2697EA8A1DD2FD8800490B2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2697EA8B1DD2FD8800490B2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2697EA8E1DD2FD8800490B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2697EA901DD2FD8800490B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2697EA931DD2FD8800490B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2697EA951DD2FD8800490B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2697EA9A1DD2FD8800490B2D /* DYTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2697EA9E1DD2FD8800490B2D /* DYTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTVTests.m; sourceTree = "<group>"; };
-		2697EAA01DD2FD8800490B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2697EAA51DD2FD8800490B2D /* DYTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2697EAA91DD2FD8800490B2D /* DYTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTVUITests.m; sourceTree = "<group>"; };
-		2697EAAB1DD2FD8800490B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2697EAC01DD30A5500490B2D /* DYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2697EAC31DD30A5500490B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2697EAC51DD30A5500490B2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2697EAC81DD30A5500490B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2697EACA1DD30A5500490B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2697EACD1DD30A5500490B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2697EACF1DD30A5500490B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2697EAD41DD30A5500490B2D /* DYTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2697EAD81DD30A5500490B2D /* DYTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYTVTests.swift; sourceTree = "<group>"; };
+		2697EADA1DD30A5500490B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2697EADF1DD30A5500490B2D /* DYTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2697EAE31DD30A5500490B2D /* DYTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYTVUITests.swift; sourceTree = "<group>"; };
+		2697EAE51DD30A5500490B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2697EA7E1DD2FD8800490B2D /* Frameworks */ = {
+		2697EABD1DD30A5500490B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2697EA971DD2FD8800490B2D /* Frameworks */ = {
+		2697EAD11DD30A5500490B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2697EAA21DD2FD8800490B2D /* Frameworks */ = {
+		2697EADC1DD30A5500490B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,64 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2697EA781DD2FD8800490B2D = {
+		2697EAB71DD30A5500490B2D = {
 			isa = PBXGroup;
 			children = (
-				2697EA831DD2FD8800490B2D /* DYTV */,
-				2697EA9D1DD2FD8800490B2D /* DYTVTests */,
-				2697EAA81DD2FD8800490B2D /* DYTVUITests */,
-				2697EA821DD2FD8800490B2D /* Products */,
+				2697EAC21DD30A5500490B2D /* DYTV */,
+				2697EAD71DD30A5500490B2D /* DYTVTests */,
+				2697EAE21DD30A5500490B2D /* DYTVUITests */,
+				2697EAC11DD30A5500490B2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2697EA821DD2FD8800490B2D /* Products */ = {
+		2697EAC11DD30A5500490B2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2697EA811DD2FD8800490B2D /* DYTV.app */,
-				2697EA9A1DD2FD8800490B2D /* DYTVTests.xctest */,
-				2697EAA51DD2FD8800490B2D /* DYTVUITests.xctest */,
+				2697EAC01DD30A5500490B2D /* DYTV.app */,
+				2697EAD41DD30A5500490B2D /* DYTVTests.xctest */,
+				2697EADF1DD30A5500490B2D /* DYTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2697EA831DD2FD8800490B2D /* DYTV */ = {
+		2697EAC21DD30A5500490B2D /* DYTV */ = {
 			isa = PBXGroup;
 			children = (
-				2697EA871DD2FD8800490B2D /* AppDelegate.h */,
-				2697EA881DD2FD8800490B2D /* AppDelegate.m */,
-				2697EA8A1DD2FD8800490B2D /* ViewController.h */,
-				2697EA8B1DD2FD8800490B2D /* ViewController.m */,
-				2697EA8D1DD2FD8800490B2D /* Main.storyboard */,
-				2697EA901DD2FD8800490B2D /* Assets.xcassets */,
-				2697EA921DD2FD8800490B2D /* LaunchScreen.storyboard */,
-				2697EA951DD2FD8800490B2D /* Info.plist */,
-				2697EA841DD2FD8800490B2D /* Supporting Files */,
+				2697EAC31DD30A5500490B2D /* AppDelegate.swift */,
+				2697EAC51DD30A5500490B2D /* ViewController.swift */,
+				2697EAC71DD30A5500490B2D /* Main.storyboard */,
+				2697EACA1DD30A5500490B2D /* Assets.xcassets */,
+				2697EACC1DD30A5500490B2D /* LaunchScreen.storyboard */,
+				2697EACF1DD30A5500490B2D /* Info.plist */,
 			);
 			path = DYTV;
 			sourceTree = "<group>";
 		};
-		2697EA841DD2FD8800490B2D /* Supporting Files */ = {
+		2697EAD71DD30A5500490B2D /* DYTVTests */ = {
 			isa = PBXGroup;
 			children = (
-				2697EA851DD2FD8800490B2D /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2697EA9D1DD2FD8800490B2D /* DYTVTests */ = {
-			isa = PBXGroup;
-			children = (
-				2697EA9E1DD2FD8800490B2D /* DYTVTests.m */,
-				2697EAA01DD2FD8800490B2D /* Info.plist */,
+				2697EAD81DD30A5500490B2D /* DYTVTests.swift */,
+				2697EADA1DD30A5500490B2D /* Info.plist */,
 			);
 			path = DYTVTests;
 			sourceTree = "<group>";
 		};
-		2697EAA81DD2FD8800490B2D /* DYTVUITests */ = {
+		2697EAE21DD30A5500490B2D /* DYTVUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2697EAA91DD2FD8800490B2D /* DYTVUITests.m */,
-				2697EAAB1DD2FD8800490B2D /* Info.plist */,
+				2697EAE31DD30A5500490B2D /* DYTVUITests.swift */,
+				2697EAE51DD30A5500490B2D /* Info.plist */,
 			);
 			path = DYTVUITests;
 			sourceTree = "<group>";
@@ -143,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2697EA801DD2FD8800490B2D /* DYTV */ = {
+		2697EABF1DD30A5500490B2D /* DYTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2697EAAE1DD2FD8800490B2D /* Build configuration list for PBXNativeTarget "DYTV" */;
+			buildConfigurationList = 2697EAE81DD30A5500490B2D /* Build configuration list for PBXNativeTarget "DYTV" */;
 			buildPhases = (
-				2697EA7D1DD2FD8800490B2D /* Sources */,
-				2697EA7E1DD2FD8800490B2D /* Frameworks */,
-				2697EA7F1DD2FD8800490B2D /* Resources */,
+				2697EABC1DD30A5500490B2D /* Sources */,
+				2697EABD1DD30A5500490B2D /* Frameworks */,
+				2697EABE1DD30A5500490B2D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,71 +142,72 @@
 			);
 			name = DYTV;
 			productName = DYTV;
-			productReference = 2697EA811DD2FD8800490B2D /* DYTV.app */;
+			productReference = 2697EAC01DD30A5500490B2D /* DYTV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2697EA991DD2FD8800490B2D /* DYTVTests */ = {
+		2697EAD31DD30A5500490B2D /* DYTVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2697EAB11DD2FD8800490B2D /* Build configuration list for PBXNativeTarget "DYTVTests" */;
+			buildConfigurationList = 2697EAEB1DD30A5500490B2D /* Build configuration list for PBXNativeTarget "DYTVTests" */;
 			buildPhases = (
-				2697EA961DD2FD8800490B2D /* Sources */,
-				2697EA971DD2FD8800490B2D /* Frameworks */,
-				2697EA981DD2FD8800490B2D /* Resources */,
+				2697EAD01DD30A5500490B2D /* Sources */,
+				2697EAD11DD30A5500490B2D /* Frameworks */,
+				2697EAD21DD30A5500490B2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2697EA9C1DD2FD8800490B2D /* PBXTargetDependency */,
+				2697EAD61DD30A5500490B2D /* PBXTargetDependency */,
 			);
 			name = DYTVTests;
 			productName = DYTVTests;
-			productReference = 2697EA9A1DD2FD8800490B2D /* DYTVTests.xctest */;
+			productReference = 2697EAD41DD30A5500490B2D /* DYTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2697EAA41DD2FD8800490B2D /* DYTVUITests */ = {
+		2697EADE1DD30A5500490B2D /* DYTVUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2697EAB41DD2FD8800490B2D /* Build configuration list for PBXNativeTarget "DYTVUITests" */;
+			buildConfigurationList = 2697EAEE1DD30A5500490B2D /* Build configuration list for PBXNativeTarget "DYTVUITests" */;
 			buildPhases = (
-				2697EAA11DD2FD8800490B2D /* Sources */,
-				2697EAA21DD2FD8800490B2D /* Frameworks */,
-				2697EAA31DD2FD8800490B2D /* Resources */,
+				2697EADB1DD30A5500490B2D /* Sources */,
+				2697EADC1DD30A5500490B2D /* Frameworks */,
+				2697EADD1DD30A5500490B2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2697EAA71DD2FD8800490B2D /* PBXTargetDependency */,
+				2697EAE11DD30A5500490B2D /* PBXTargetDependency */,
 			);
 			name = DYTVUITests;
 			productName = DYTVUITests;
-			productReference = 2697EAA51DD2FD8800490B2D /* DYTVUITests.xctest */;
+			productReference = 2697EADF1DD30A5500490B2D /* DYTVUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2697EA791DD2FD8800490B2D /* Project object */ = {
+		2697EAB81DD30A5500490B2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = milo;
 				TargetAttributes = {
-					2697EA801DD2FD8800490B2D = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Manual;
-					};
-					2697EA991DD2FD8800490B2D = {
+					2697EABF1DD30A5500490B2D = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 2697EA801DD2FD8800490B2D;
 					};
-					2697EAA41DD2FD8800490B2D = {
+					2697EAD31DD30A5500490B2D = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 2697EA801DD2FD8800490B2D;
+						TestTargetID = 2697EABF1DD30A5500490B2D;
+					};
+					2697EADE1DD30A5500490B2D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2697EABF1DD30A5500490B2D;
 					};
 				};
 			};
-			buildConfigurationList = 2697EA7C1DD2FD8800490B2D /* Build configuration list for PBXProject "DYTV" */;
+			buildConfigurationList = 2697EABB1DD30A5500490B2D /* Build configuration list for PBXProject "DYTV" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 2697EA781DD2FD8800490B2D;
-			productRefGroup = 2697EA821DD2FD8800490B2D /* Products */;
+			mainGroup = 2697EAB71DD30A5500490B2D;
+			productRefGroup = 2697EAC11DD30A5500490B2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2697EA801DD2FD8800490B2D /* DYTV */,
-				2697EA991DD2FD8800490B2D /* DYTVTests */,
-				2697EAA41DD2FD8800490B2D /* DYTVUITests */,
+				2697EABF1DD30A5500490B2D /* DYTV */,
+				2697EAD31DD30A5500490B2D /* DYTVTests */,
+				2697EADE1DD30A5500490B2D /* DYTVUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2697EA7F1DD2FD8800490B2D /* Resources */ = {
+		2697EABE1DD30A5500490B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2697EA941DD2FD8800490B2D /* LaunchScreen.storyboard in Resources */,
-				2697EA911DD2FD8800490B2D /* Assets.xcassets in Resources */,
-				2697EA8F1DD2FD8800490B2D /* Main.storyboard in Resources */,
+				2697EACE1DD30A5500490B2D /* LaunchScreen.storyboard in Resources */,
+				2697EACB1DD30A5500490B2D /* Assets.xcassets in Resources */,
+				2697EAC91DD30A5500490B2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2697EA981DD2FD8800490B2D /* Resources */ = {
+		2697EAD21DD30A5500490B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2697EAA31DD2FD8800490B2D /* Resources */ = {
+		2697EADD1DD30A5500490B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,60 +255,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2697EA7D1DD2FD8800490B2D /* Sources */ = {
+		2697EABC1DD30A5500490B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2697EA8C1DD2FD8800490B2D /* ViewController.m in Sources */,
-				2697EA891DD2FD8800490B2D /* AppDelegate.m in Sources */,
-				2697EA861DD2FD8800490B2D /* main.m in Sources */,
+				2697EAC61DD30A5500490B2D /* ViewController.swift in Sources */,
+				2697EAC41DD30A5500490B2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2697EA961DD2FD8800490B2D /* Sources */ = {
+		2697EAD01DD30A5500490B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2697EA9F1DD2FD8800490B2D /* DYTVTests.m in Sources */,
+				2697EAD91DD30A5500490B2D /* DYTVTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2697EAA11DD2FD8800490B2D /* Sources */ = {
+		2697EADB1DD30A5500490B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2697EAAA1DD2FD8800490B2D /* DYTVUITests.m in Sources */,
+				2697EAE41DD30A5500490B2D /* DYTVUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2697EA9C1DD2FD8800490B2D /* PBXTargetDependency */ = {
+		2697EAD61DD30A5500490B2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2697EA801DD2FD8800490B2D /* DYTV */;
-			targetProxy = 2697EA9B1DD2FD8800490B2D /* PBXContainerItemProxy */;
+			target = 2697EABF1DD30A5500490B2D /* DYTV */;
+			targetProxy = 2697EAD51DD30A5500490B2D /* PBXContainerItemProxy */;
 		};
-		2697EAA71DD2FD8800490B2D /* PBXTargetDependency */ = {
+		2697EAE11DD30A5500490B2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2697EA801DD2FD8800490B2D /* DYTV */;
-			targetProxy = 2697EAA61DD2FD8800490B2D /* PBXContainerItemProxy */;
+			target = 2697EABF1DD30A5500490B2D /* DYTV */;
+			targetProxy = 2697EAE01DD30A5500490B2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2697EA8D1DD2FD8800490B2D /* Main.storyboard */ = {
+		2697EAC71DD30A5500490B2D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2697EA8E1DD2FD8800490B2D /* Base */,
+				2697EAC81DD30A5500490B2D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2697EA921DD2FD8800490B2D /* LaunchScreen.storyboard */ = {
+		2697EACC1DD30A5500490B2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2697EA931DD2FD8800490B2D /* Base */,
+				2697EACD1DD30A5500490B2D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2697EAAC1DD2FD8800490B2D /* Debug */ = {
+		2697EAE61DD30A5500490B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,11 +359,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2697EAAD1DD2FD8800490B2D /* Release */ = {
+		2697EAE71DD30A5500490B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -415,77 +402,86 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2697EAAF1DD2FD8800490B2D /* Debug */ = {
+		2697EAE91DD30A5500490B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DYTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.DYTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		2697EAB01DD2FD8800490B2D /* Release */ = {
+		2697EAEA1DD30A5500490B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DYTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.DYTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		2697EAB21DD2FD8800490B2D /* Debug */ = {
+		2697EAEC1DD30A5500490B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DYTVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.DYTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTV.app/DYTV";
 			};
 			name = Debug;
 		};
-		2697EAB31DD2FD8800490B2D /* Release */ = {
+		2697EAED1DD30A5500490B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DYTVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.DYTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTV.app/DYTV";
 			};
 			name = Release;
 		};
-		2697EAB51DD2FD8800490B2D /* Debug */ = {
+		2697EAEF1DD30A5500490B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DYTVUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.DYTVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DYTV;
 			};
 			name = Debug;
 		};
-		2697EAB61DD2FD8800490B2D /* Release */ = {
+		2697EAF01DD30A5500490B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DYTVUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.DYTVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DYTV;
 			};
 			name = Release;
@@ -493,40 +489,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2697EA7C1DD2FD8800490B2D /* Build configuration list for PBXProject "DYTV" */ = {
+		2697EABB1DD30A5500490B2D /* Build configuration list for PBXProject "DYTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2697EAAC1DD2FD8800490B2D /* Debug */,
-				2697EAAD1DD2FD8800490B2D /* Release */,
+				2697EAE61DD30A5500490B2D /* Debug */,
+				2697EAE71DD30A5500490B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2697EAAE1DD2FD8800490B2D /* Build configuration list for PBXNativeTarget "DYTV" */ = {
+		2697EAE81DD30A5500490B2D /* Build configuration list for PBXNativeTarget "DYTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2697EAAF1DD2FD8800490B2D /* Debug */,
-				2697EAB01DD2FD8800490B2D /* Release */,
+				2697EAE91DD30A5500490B2D /* Debug */,
+				2697EAEA1DD30A5500490B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2697EAB11DD2FD8800490B2D /* Build configuration list for PBXNativeTarget "DYTVTests" */ = {
+		2697EAEB1DD30A5500490B2D /* Build configuration list for PBXNativeTarget "DYTVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2697EAB21DD2FD8800490B2D /* Debug */,
-				2697EAB31DD2FD8800490B2D /* Release */,
+				2697EAEC1DD30A5500490B2D /* Debug */,
+				2697EAED1DD30A5500490B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2697EAB41DD2FD8800490B2D /* Build configuration list for PBXNativeTarget "DYTVUITests" */ = {
+		2697EAEE1DD30A5500490B2D /* Build configuration list for PBXNativeTarget "DYTVUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2697EAB51DD2FD8800490B2D /* Debug */,
-				2697EAB61DD2FD8800490B2D /* Release */,
+				2697EAEF1DD30A5500490B2D /* Debug */,
+				2697EAF01DD30A5500490B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2697EA791DD2FD8800490B2D /* Project object */;
+	rootObject = 2697EAB81DD30A5500490B2D /* Project object */;
 }
